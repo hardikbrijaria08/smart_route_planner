@@ -44,22 +44,22 @@ No external dependencies — uses Python standard library only.
  Route Planner: Delhi → Bangalore
 ════════════════════════════════════════════════
 
-  ✅ Fewest Stops (BFS)
+  Fewest Stops (BFS)
      Route : Delhi → Agra → Lucknow → ... → Bangalore
      Stops : 5
      Dist  : 2160 km   Cost: ₹3600   Time: 37 hrs
 
-  ✅ Shortest Distance (Dijkstra)
+  Shortest Distance (Dijkstra)
      Route : Delhi → Jaipur → Mumbai → Hyderabad → Bangalore
      Stops : 4
      Dist  : 2130 km   Cost: ₹3250   Time: 35 hrs
 
-  ✅ Lowest Cost (Dijkstra)
+  Lowest Cost (Dijkstra)
      Route : Delhi → Agra → Jaipur → Mumbai → Hyderabad → Bangalore
      Stops : 5
      Cost  : ₹3000   ...
 
-  ✅ Fastest Route (Dijkstra)
+  Fastest Route (Dijkstra)
      Route : Delhi → Jaipur → Mumbai → Hyderabad → Bangalore
      Time  : 35 hrs   ...
 ```
