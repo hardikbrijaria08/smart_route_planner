@@ -1,15 +1,15 @@
-# 🗺 Smart Route Planner Using Graph Algorithms
+# Smart Route Planner Using Graph Algorithms
 
 A Python-based route planning system that computes optimal paths between cities using **BFS** and **Dijkstra's algorithm**, with support for user-defined cost and time constraints.
 
-## 📌 Project Highlights
+## Project Highlights
 - **4 optimization modes**: fewest stops, shortest distance, lowest cost, fastest time
 - Graph built with custom adjacency list using Python dictionaries
 - Custom min-heap (via `heapq`) for efficient Dijkstra implementation
 - Support for user-defined cities and constraint filtering (max budget, max time)
 - Interactive CLI for custom route queries
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
 ### BFS — Fewest Stops
 - Explores level by level (stop by stop)
@@ -21,7 +21,7 @@ A Python-based route planning system that computes optimal paths between cities 
 - Can optimize for distance, cost, or time (configurable)
 - Time complexity: **O((V + E) log V)**
 
-## 📁 Project Structure
+## Project Structure
 ```
 smart-route-planner/
 │
@@ -30,7 +30,7 @@ smart-route-planner/
 └── README.md
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 python route_planner.py
@@ -41,7 +41,7 @@ No external dependencies — uses Python standard library only.
 ## 💡 Sample Output
 
 ```
-🗺  Route Planner: Delhi → Bangalore
+ Route Planner: Delhi → Bangalore
 ════════════════════════════════════════════════
 
   ✅ Fewest Stops (BFS)
@@ -64,7 +64,7 @@ No external dependencies — uses Python standard library only.
      Time  : 35 hrs   ...
 ```
 
-## 🔧 Key Design Decisions
+## Key Design Decisions
 
 | Decision | Reason |
 |---|---|
